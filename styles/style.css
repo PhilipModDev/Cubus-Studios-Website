@@ -1,0 +1,40 @@
+/* Main style configuration */
+/* Font configuration */
+.open-sans-first {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #23272f;
+}
+
+/* Headere styles */
+.header-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-item-box {
+    padding: 1em;
+}
+
+.header-item {
+    color: #1cee96;
+    text-decoration: none;
+    font: 1.4em sans-serif;
+    font-weight: 300;
+}
