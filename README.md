@@ -5,7 +5,7 @@
    The site is only a start game development foundation for publishing content to interested users.
    The site is constructed in HTML 5, CSS and JavaScript.
 
-   The full page can be viewed <a href ="https://www.cubusstudios.com/">here</a>
+   The full page can be viewed <a href ="https://www.cubusstudio.com/">here</a>
 
    <h1> All Rights Reserved</h1>
 </p>
