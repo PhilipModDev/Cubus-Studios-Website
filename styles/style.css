@@ -68,6 +68,7 @@ header {
    margin-right: 1px;
    line-height: 60px;
    width: 250px;
+   border: #1cee96 solid 3px;
 }
 
 .menu {
@@ -97,7 +98,7 @@ header {
 .banner-display {
     margin: auto;
     text-align: center;
-    padding: 14em;
+    padding: 10em;
     padding-bottom: 2em;
     margin-bottom: 2em;
 }
@@ -195,6 +196,8 @@ header {
 .mods-content-container{
    display: flex;
    flex-wrap: wrap;
+   margin: auto;
+   width: 70%;
    justify-content: center;
 }
 
