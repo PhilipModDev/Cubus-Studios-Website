@@ -7,6 +7,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    margin: 0px;
     background-color: #23272f;
 }
 header {
@@ -169,8 +170,53 @@ header {
 /* Media icons */
 .icon-button {
     vertical-align: middle;
-    
+}
 
+/* Mods content section */
+
+.mods-container-box {
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+    background-color: #16181d;
+}
+.content-title{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 3em;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.mods-content-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.mod-content{
+    display: inline-flex;
+    padding: 20px;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-size: 2em;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: transparent 10px solid;
+    transition: all ease-in 0.1s 0.1s;
+}
+
+.mod-content:hover {
+  border: #1cee96 10px solid;
 }
 
 /* Resizing */
@@ -239,6 +285,16 @@ header {
         padding-left: 35px;
         padding-right: 35px;
     }
+
+    .content-title{
+        font-size: 2em;
+    }
+
+    .mod-content{
+        width: 200px;
+        font-size: 1.5em;
+    }
+    
 }
 /* 200px Resizing */
 @media screen and (max-width: 300px) {
