@@ -156,6 +156,7 @@ header {
     text-decoration: none;
     text-align: center;
     align-items: center;
+    padding: 20px;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -164,6 +165,14 @@ header {
     border: #1cd5ee solid 5px;
     color: #1cd5ee;
 }
+
+/* Media icons */
+.icon-button {
+    vertical-align: middle;
+    
+
+}
+
 /* Resizing */
 @media screen and(max-width:1000px) {
     .drop-list-container{
@@ -199,6 +208,9 @@ header {
   .media-link {
     text-align: center;
     align-items: center;
+    font-size: 1.3em;
+    padding-left: 90px;
+    padding-right: 90px;
 }
 
 }
@@ -224,8 +236,8 @@ header {
         text-align: center;
     }
     .media-link {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
 /* 200px Resizing */
@@ -244,11 +256,31 @@ header {
         font-weight: 400;
         font-size: 1.8em;
     }
-    .media-link {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+
     .drop-list-container{
         width: 200px;
      }
+     .media-link {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.2em;
+    }
+}
+
+/* 278px Resizing */
+@media screen and (max-width: 278px) {
+     .media-link {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1em;
+    }
+}
+
+/* 265px Resizing */
+@media screen and (max-width: 265px) {
+    .media-link {
+       padding-left: 30px;
+       padding-right: 30px;
+       font-size: 0.8em;
+   }
 }
