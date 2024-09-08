@@ -221,6 +221,55 @@ header {
 .mod-content:hover {
   border: #1cee96 10px solid;
 }
+/* Framework & Tutorial videos section */
+.framework-tutorial-box{
+    margin: auto;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+.framework-title{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 3em;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.sub-title-libGDX {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: 2em;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.libGDX-logo{
+   width: 600px;
+   vertical-align: middle;
+}
+
+.libGDX-logo-box {
+    text-align: center;
+}
+
+.video-box{
+    margin-top: 2em;
+    text-align: center;
+}
+.video {
+    width: 600px;
+    height: 315px;
+}
 
 /* Resizing */
 @media screen and(max-width:1000px) {
@@ -261,7 +310,28 @@ header {
     padding-left: 90px;
     padding-right: 90px;
 }
+.framework-title{
+    font-size: 2em;
+}
+.sub-title-libGDX {
+    font-size: 1.4em;
+}
 
+.libGDX-logo{
+   width: 300px;
+   vertical-align: middle;
+}
+.video {
+    width: 450px;
+    height: 290px;
+}
+
+@media screen and (max-width:550px){
+    .video {
+        width: 400px;
+        height: 250px;
+    }
+}
 }
 /* 350px Resizing */
 @media screen and (max-width:400px) {
@@ -292,12 +362,18 @@ header {
     .content-title{
         font-size: 2em;
     }
+    .framework-title{
+        font-size: 1.6em;
+    }
 
     .mod-content{
         width: 200px;
         font-size: 1.5em;
     }
-    
+    .video {
+        width: 300px;
+        height: 200px;
+    }
 }
 /* 200px Resizing */
 @media screen and (max-width: 300px) {
@@ -323,6 +399,18 @@ header {
         padding-left: 30px;
         padding-right: 30px;
         font-size: 1.2em;
+    }
+    .framework-title{
+        font-size: 1em;
+    }
+    .libGDX-logo{
+        width: 200px;
+        vertical-align: middle;
+     }
+     .video {
+        display: none;
+        width: 150px;
+        height: 200px;
     }
 }
 
